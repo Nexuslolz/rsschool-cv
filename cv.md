@@ -15,21 +15,24 @@
 
 ### Code examples.
 
-``````const binaryArrayToNumber = arr => {
+```
+const binaryArrayToNumber = arr => {
 let parsed = parseInt(arr.join(''),2)
-return parsed };`````
+return parsed };
+```
 
-````function toCamelCase(str){
-     let word
-     for(i=0;i<str.length;i++){
-          if(str[i]==='-'||str[i]==='_'){
-               word = str[i+1] str = str.replace(word,word.toUpperCase())
-                }
-                }
-                str = str.replace(/[^a-zа-яё0-9\s]/gi, ' ');
-                 str = str.replace(/\s/g, '');
-                 return str }```
-``````
+```
+function toCamelCase(str){
+let word
+for(i=0;i<str.length;i++){
+if(str[i]==='-'||str[i]==='\_'){
+word = str[i+1] str = str.replace(word,word.toUpperCase())
+}
+}
+str = str.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+str = str.replace(/\s/g, '');
+return str }
+```
 
 ### Projects.
 
@@ -42,3 +45,7 @@ return parsed };`````
 ### English language level.
 
 - B1. I studied in school of english language "Dialog" in Magnitogorsk, and passed the exam IELTS for 5.5.
+
+```
+
+```
