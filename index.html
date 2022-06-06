@@ -59,11 +59,25 @@
               <div class="content__info">
                 <pre>
               <code>
-                const binaryArrayToNumber = arr = () {
+                const binaryArrayToNumber = arr =&gt {
                 let parsed = parseInt(arr.join(''),2)
                 return parsed };
             </code>            
         </pre>
+        <pre>
+          <code>           
+              function toCamelCase(str){
+              let word;
+              for(i=0;i&ltstr.length;i++){
+              if(str[i]==='-'||str[i]==='\_'){
+              word = str[i+1] str = str.replace(word,word.toUpperCase())
+              }
+              }
+              str = str.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+              str = str.replace(/\s/g, '');
+              return str}                
+          </code>
+      </pre>
               </div>
             </div>
           </div>
