@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV#2</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__page-header">Alexandr Klyosov</h1>
+      <img src="./img/631127710.jpeg" alt="my photo" class="header__img" />
+    </header>
+    <main class="main">
+      <div class="main-wrapper">
+        <div class="main__contacts">
+          <div class="contacts-wrapper">
+            <h3 class="contacts__header">Contacts.</h3>
+            <ul class="contacts-list">
+              <li class="contacts-list__item">tg: @nexuslolz .</li>
+              <li class="contacts-list__item">discord: Alexandr K (@Nexuslolz) .</li>
+            </ul>
+          </div>
+        </div>
+        <div class="main__info">
+          <div class="info-wrapper">
+            <h3 class="info__header">About me.</h3>
+            <div class="info__about">
+              My name is Alexandr Klyosov. I was born in 20.07.1997, in Russia,
+              Chelyabinsk region, Magnitogorsk. I graduated from medical
+              university in Chelyabinsk. Later I moved to Ekaterinburg for
+              further education. While I studied in medical university I decided
+              to study and work in IT sphere. I want to be a developer.
+              Languages which I learn now is HTML, CSS, JS. I very excited in
+              process of studying. I really like it. I hope that after rs school
+              graduation I will apply for a job in position of frontend
+              developer.
+            </div>
+          </div>
+        </div>
+        <div class="main__other-info">
+          <div class="other-info-wrapper">
+              <div class="specification">
+            <div class="specification-skills">
+                <h3 class="specification-skills__header">Skills.</h3>
+                <div class="specification-skills__info">Besides HTML, CSS, JS I practice Git, Bash, JQuery. Later I plan learn React, Phyton.</div>
+          </div>
+          <div class="specification-examples">
+              <h3 class="specification-examples__header">Code examples.</h3>
+              <div class="specification-examples__info">
+        <pre>
+              <code>
+                const binaryArrayToNumber = arr => {
+                let parsed = parseInt(arr.join(''),2)
+                return parsed };
+            </code>
+        </pre>
+        <pre>
+            <code>           
+                function toCamelCase(str){
+                let word;
+                for(i=0;i&ltstr.length;i++){
+                if(str[i]==='-'||str[i]==='\_'){
+                word = str[i+1] str = str.replace(word,word.toUpperCase())
+                }
+                }
+                str = str.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+                str = str.replace(/\s/g, '');
+                return str}                
+            </code>
+        </pre>
+    </div>
+          </div>
+          <div class="specification-projects">
+              <h3 class="specification-projects__header">My projects.</h3>
+              <ul class="specification-projects-list">
+                  <li class="specification-projects-list__item">
+                      <a href="https://github.com/Nexuslolz/snakeGame" class="project__link">SnakeGame</a>
+                  </li>
+                  <li class="specification-projects-list__item">
+                      <a href="https://github.com/Nexuslolz/CatEnergy" class="project__link">CatEnergy</a>
+                  </li>
+                  <li class="specification-projects-list__item">
+                      <a href="https://github.com/Nexuslolz/Auto-shop" class="project__link">Auto-shop</a>
+                  </li>
+                  <li class="specification-projects-list__item">
+                      <a href="https://github.com/Nexuslolz/Cinema" class="project__link">Cinema</a>
+                  </li>
+                  <li class="specification-projects-list__item">
+                      <a href="https://github.com/Nexuslolz/Burger-shop" class="project__link">Burger-shop</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="specification-language">
+                <h3 class="specification-language__header">English language level</h3>
+              <span class="specification-language__info">B1. I studied in school of english language "Dialog" in Magnitogorsk, and passed the exam IELTS for 5.5.</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
