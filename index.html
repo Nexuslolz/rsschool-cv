@@ -1,126 +1,375 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>CV#2</title>
+    <link rel="icon" href="./img/myLogo.ico" />
+    <title>Alexandr Klyosov</title>
   </head>
-  <body class="body">
-    <header class="header">
-      <h1 class="header__page-header">Alexandr Klyosov</h1>
-      <img src="./img/631127710.jpeg" alt="my photo" class="header__img" />
+  <body class="page__body">
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__list main-nav__list_close">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <ul class="site-list">
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> Contacts</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> About me</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> Education</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> Code example</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> Skills</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> My projects</a>
+            </li>
+            <li class="site-list__item">
+              <a href="" class="site-list__link"> Languages</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main class="main">
-      <div class="main__wrapper">
+    <main class="page-main">
+      <div class="page-main__left-column">
+        <div class="content-box">
+          <img
+            class="content-box__img"
+            src="./img/631127710.jpeg"
+            alt="My photo"
+            width="150"
+            height="150"
+          />
+          <h1 class="content-box__name">Alexandr Klyosov</h1>
+          <span class="content-box__text">Junior frontend developer</span>
+        </div>
+        <div class="content-box">
+          <h2 class="content-box__header">Contacts</h2>
+          <ul class="content-box__body contact-list">
+            <li class="contact-list__item">
+              <img
+                src="./img/vk.svg"
+                alt="vk"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a href="https://vk.com/nexuslolz" target="_blank"  class="contact-list__link"
+                >vk.com/nexuslolz
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/Telegram.svg"
+                alt="telegram"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a href="https://t.me/nexuslolz"  target="_blank" class="contact-list__link">
+                t.me/nexuslolz
+              </a>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/discord-logo.svg"
+                alt="discord"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="contact-list__link">Alexandr K#4291 </span>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/email.svg"
+                alt="email"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="contact-list__link">a.klyosov@inbox.ru </span>
+            </li>
+            <li class="contact-list__item">
+              <img
+                src="./img/GitHub.svg"
+                alt="github"
+                class="contact-list__img"
+                width="18"
+                height="18"
+              />
+              <a href="https://github.com/Nexuslolz" target="_blank"  class="contact-list__link">
+                github.com/Nexuslolz
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="content-box">
+          <h2 class="content-box__header">Skills</h2>
+          <ul class="content-box__body skills-list">
+            <li class="skills-list__item">
+              <img
+                src="./img/html.svg"
+                alt="html"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> HTML</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+            <li class="skills-list__item">
+              <img
+                src="./img/css.svg"
+                alt="css"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> CSS</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+            <li class="skills-list__item">
+              <img
+                src="./img/sass.svg"
+                alt="sass"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> Sass</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+            <li class="skills-list__item">
+              <img
+                src="./img/javascript.svg"
+                alt="js"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> JavaScript</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+            <li class="skills-list__item">
+              <img
+                src="./img/GitHub.svg"
+                alt="git"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> Git</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+            <li class="skills-list__item">
+              <img
+                src="./img/figma.svg"
+                alt="figma"
+                class="skills-list__img"
+                width="18"
+                height="18"
+              />
+              <span class="skills-list__name"> Figma</span>
+              <div class="skills-list__scale scale">
+                <div class="scale__max"></div>
+                <div class="scale__range"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="content-box">
+          <h2 class="content-box__header">Languages</h2>
+          <ul class="content-box__body lang-list">
+            <li class="lang-list__item">
+              <h3 class="lang-list__name">Russian</h3>
+              <span class="lang-list__level">Native</span>
+            </li>
+            <li class="lang-list__item">
+              <h3 class="lang-list__name">English</h3>
+              <span class="lang-list__level">Intermediate</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="page-main__right-column">
         <div class="main-content">
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">Contacts.</h3>
-              <ul class="content-list">
-                <li class="content-list__item">tg: @nexuslolz.</li>
-                <li class="content-list__item">
-                  discord: Alexandr K (@Nexuslolz).
+          <div class="main-content__head">
+            <img src="" alt="" class="main-content__img">
+            <h2 class="main-content__header">About me</h2>
+          </div>
+            <div class="main-content__body">
+              My name is Alexandr Klyosov. I was born in 20.07.1997, in
+              Russia, Chelyabinsk region, Magnitogorsk. I graduated from
+              medical university in Chelyabinsk. Later I moved to Ekaterinburg
+              for further education. While I studied in medical university I
+              decided to study and work in IT sphere. I want to be a
+              developer. Languages which I learn now is HTML, CSS, JS. I very
+              excited in process of studying. I really like it. I hope that
+              after rs school graduation I will apply for a job in position of
+              frontend developer.
+            </div>
+        </div>
+        <div class="main-content">
+          <div class="main-content__head">
+            <img src="" alt="" class="main-content__img">
+            <h2 class="main-content__header">Education</h2>
+          </div>
+              <ul class="main-content__body education-list">
+                <li class="education-list__item">
+                  <div class="education-list__text">
+                    <span class="bold-text"
+                      >South Ural State Medical university.</span
+                    >
+                    <span class="normal-text">2015-2021.</span>
+                    <span class="normal-text"> Therapist.</span>
+                  </div>
+                </li>
+                <li class="education-list__item">
+                  <div class="education-list__text">
+                    <span class="bold-text"
+                      >Ural Research Institute of Dermatovenereology and
+                      Immunopathology.</span
+                    >
+                    <span class="normal-text">2021-2023.</span>
+                    <span class="normal-text"> Dermatovenereologist.</span>
+                  </div>
+                </li>
+                <li class="education-list__item">
+                  <div class="education-list__text">
+                    <span class="bold-text">The Rolling Scopes School.</span>
+                    <span class="normal-text">2022.</span>
+                    <span class="normal-text"> Frontend developer.</span>
+                  </div>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">About me.</h3>
-              <div class="content__info">
-                My name is Alexandr Klyosov. I was born in 20.07.1997, in
-                Russia, Chelyabinsk region, Magnitogorsk. I graduated from
-                medical university in Chelyabinsk. Later I moved to Ekaterinburg
-                for further education. While I studied in medical university I
-                decided to study and work in IT sphere. I want to be a
-                developer. Languages which I learn now is HTML, CSS, JS. I very
-                excited in process of studying. I really like it. I hope that
-                after rs school graduation I will apply for a job in position of
-                frontend developer.
-              </div>
-            </div>
           </div>
         </div>
-        <div class="other-content">
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">Skills.</h3>
-              <div class="content__info">
-                Besides HTML, CSS, JS I practice Git, Bash, JQuery. Later I plan
-                learn React, Phyton.
-              </div>
+        <div class="main-content">
+          <div class="main-content__head">
+            <img src="" alt="" class="main-content__img">
+            <h2 class="main-content__header">Code example</h2>
+          </div>
+            <div class="main-content__body">
+              <h3 class="main-content__name">Convert string to camel case</h3>
+              <pre class="code-example">
+                <code>
+                  function toCamelCase(str){
+                  let word 
+                for(i=0;i&ltstr.length;i++){
+                  if(str[i]==='-'||str[i]==='_'){
+                    word = str[i+1]
+                    str = str.replace(word,word.toUpperCase())
+                  }
+                }
+                  str = str.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+                  str = str.replace(/\s/g, '');
+                  return str
+                }
+              </code>
+              </pre>
+              <h3 class="main-content__name">Create Phone Number</h3>
+              <pre class="code-example">
+                <code>
+                  function createPhoneNumber(numbers){
+                    let firstPart = numbers.slice(0,3).join('')
+                    let secondPart = numbers.slice(3,6).join('')
+                    let thirdPart = numbers.slice(6).join('')
+                    return '('+firstPart+') '+secondPart+'-'+thirdPart                      
+                    }
+              </code>
+              </pre>
+            </div>
+        </div>
+        <div class="main-content">
+          <div class="main-content__head">
+            <img src="" alt="" class="main-content__img">
+            <h2 class="main-content__header">My projects</h2>
+          </div>
+          <div class="main-content__wrapper">
+            <div class="main-content__body">
+              <h3 class="main-content__name">Snake game</h3>
+              <p class="main-content__text">Old game with something new. You can change color of your snake. Besides she is accelerating while eats apples. Made with HTML, CSS, JS.</p>
+              <img src="./img/snakeScreen.png" alt="project picture" class="main-content__img" width="300" height="150">
+              <a  target="_blank" href="https://nexuslolz.github.io/snakeGame/" class="main-content__link">Open the project</a>
             </div>
           </div>
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">Code examples.</h3>
-              <div class="content__info">
-                <pre>
-<code>
-function multiply(a, b){
-return a * b
-}
-multiply();
-</code>
-</pre>
-              </div>
+          <div class="main-content__wrapper">
+            <div class="main-content__body">
+              <h3 class="main-content__name">Cat energy - shop</h3>
+              <p class="main-content__text">Shop of healthy food for kitties. Made with HTML, CSS, SASS, JS. It`s an adaptive project for different devices.</p>
+              <img src="./img/catenergyScreen.png" alt="project picture" class="main-content__img" width="300" height="150">
+              <a target="_blank"  href="https://nexuslolz.github.io/CatEnergy/" class="main-content__link">Open the project</a>
             </div>
           </div>
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">My projects.</h3>
-              <ul class="content-list">
-                <li class="content-list__item">
-                  <a
-                    href="https://github.com/Nexuslolz/snakeGame"
-                    class="project__link"
-                    >SnakeGame</a
-                  >
-                </li>
-                <li class="content-list__item">
-                  <a
-                    href="https://github.com/Nexuslolz/CatEnergy"
-                    class="project__link"
-                    >CatEnergy</a
-                  >
-                </li>
-                <li class="content-list__item">
-                  <a
-                    href="https://github.com/Nexuslolz/Auto-shop"
-                    class="project__link"
-                    >Auto-shop</a
-                  >
-                </li>
-                <li class="content-list__item">
-                  <a
-                    href="https://github.com/Nexuslolz/Cinema"
-                    class="project__link"
-                    >Cinema</a
-                  >
-                </li>
-                <li class="content-list__item">
-                  <a
-                    href="https://github.com/Nexuslolz/Burger-shop"
-                    class="project__link"
-                    >Burger-shop</a
-                  >
-                </li>
-              </ul>
+          <div class="main-content__wrapper">
+            <div class="main-content__body">
+              <h3 class="main-content__name">Auto - shop</h3>
+              <p class="main-content__text">Auto-shop describes advantages of this car. Made with HTML, CSS, SASS, JS. Over half of project was made not by me.</p>
+              <img src="./img/autoScreen.png" alt="project picture" class="main-content__img" width="300" height="150">
+              <a  target="_blank" href="https://nexuslolz.github.io/Auto-shop/" class="main-content__link">Open the project</a>
             </div>
           </div>
-          <div class="content">
-            <div class="content-box">
-              <h3 class="content__header">English language level</h3>
-              <span class="content__info">
-                B1. I studied in school of english language "Dialog" in
-                Magnitogorsk, and passed the exam IELTS for 5.5.</span
-              >
+          <div class="main-content__wrapper">
+            <div class="main-content__body">
+              <h3 class="main-content__name">Burger - shop</h3>
+              <p class="main-content__text">Get a burger what you want. It`s a test what you want to see in burger. Made with HTML, CSS, JS. Over half of project was made not by me.</p>
+              <img src="./img/burgerScreen.png" alt="project picture" class="main-content__img" width="300" height="150">
+              <a target="_blank"  href="https://nexuslolz.github.io/Burger-shop/" class="main-content__link">Open the project</a>
+            </div>
+          </div>
+          <div class="main-content__wrapper">
+            <div class="main-content__body">
+              <h3 class="main-content__name">Cinema</h3>
+              <p class="main-content__text">This project helps you to buy tickets to cinema. Made with HTML, CSS, JS. It`s an adaptive project.</p>
+              <img src="./img/cinemaScreen.png" alt="project picture" class="main-content__img" width="300" height="150">
+              <a target="_blank"  href="https://nexuslolz.github.io/Cinema/" class="main-content__link">Open the project</a>
             </div>
           </div>
         </div>
       </div>
     </main>
+    <footer class="page-footer">
+      <div class="production">
+        <div class="developer">
+            <span class="developer__text">© 2022 by Alexandr Klyosov @nexuslolz</span>
+        </div>
+        <div class="dev-link"> 
+          <a href="https://github.com/Nexuslolz" target="_blank" class="dev-link__link">
+            <img src="./img/GitHub.svg" alt="github" class="dev-link__img" width="25" height="25">
+            <span class="dev-link__text">My GitHub</span>
+          </a>
+        </div>
+        <div class="school">
+          <h3 class="visually-hidden">RS School</h3>
+         <a href="https://rs.school/js/"  target="_blank" class="school__link"><img src="./img/rs_school_js-logo.svg" alt="rsschool logo" class="school__img" width="100" height="50"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
