@@ -1,0 +1,92 @@
+.page{ 
+    width: 100%; 
+    max-width: 1440px;
+    min-width: 1150px; 
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.page__body{
+    background-image: linear-gradient(to right, #262930 25%,  #ffffff 0%, #ffffff 95%,#262930 0%,#262930 25%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;    
+    max-width: 1440px;
+    min-width: 950px; 
+}
+.page-header{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+}
+.page-main{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    width: 100%;
+    justify-content: space-around;
+}
+.page-footer{
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 131.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 47px;
+    border-top: 20px solid #262930;
+}
+.visually-hidden{
+    display: none;
+}
+.page-main__left-column{
+    width: 25%;
+    color: white;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-main__right-column{
+    width: 55%;
+}
+h1{
+    font-family:'Calibri','Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    text-align: center;
+    line-height: 60px;
+}
+h2{
+    font-family:'Calibri','Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0px;
+}
+.divide{
+    content: "";
+    width: 150%;
+    background-color: white;
+    height: 2px;
+    margin: 35px 0 ;
+}
+.divide-black{
+    background-color: #262930;
+    height: 3px;
+    margin: 50px 0;
+    width: 120%;
+}
