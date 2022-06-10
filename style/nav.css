@@ -1,0 +1,98 @@
+.main-nav {
+    position: relative;
+    right: 30px;
+    top: -10px;
+}
+.main-nav__wrapper{
+    width: 35px;
+    height: 40px;
+    position: relative;
+}
+.main-nav__wrapper:hover{
+    cursor: pointer;
+}
+.main-nav__wrapper:hover .main-nav__toggle{
+    transform: scale(1.08);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-nav__wrapper:hover .main-nav__toggle_open{
+    transform: scale(1.08);
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-nav__toggle{
+    transform: scale(1);
+    transition: 0.5s;
+    content: "";
+    border: none;
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 3px;
+    box-shadow: 0 10px 0 0 rgb(255, 255, 255), 0 -10px 0 0 rgb(255, 255, 255);
+}
+.main-nav__toggle_open{
+    content: "";
+    border: none;
+    box-shadow: none;
+    transform: rotate(45deg);
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 3px;
+    position: relative;
+}
+.main-nav__toggle_open::after{
+    content: "";
+    border: none;
+    transform: rotate(-90deg);
+    background-color: rgb(255, 255, 255);
+    width: 35px;
+    height: 3px;
+    right: 0;
+    position: absolute;
+}
+.main-nav__list{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.site-list{
+    background-color: rgb(219, 219, 219);
+    list-style: none;
+    position: absolute; 
+    width: 1200px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-list__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 18px ;
+}
+.site-list__item{
+    display: block;
+    width: 90%;
+    height: 100%;    
+}
+.site-list__item:hover{
+    background-color: gray;
+    transition: 0.2s;
+}
+.main-nav__list_close .site-list{
+    display: none;
+    transition: ease-in-out 1s;
+}
+.main-nav__list_open .site-list{
+    display: flex;
+    flex-direction: row;
+    left:60px;
+    top: -20px;
+}

@@ -1,0 +1,19 @@
+.contact-list__item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-list__img{
+    width: 24px;
+    height: 24px;
+}
+.contact-list__link{
+    text-decoration: none;
+    color: white;
+}
+.contact-list__link:hover{
+    transition: 0.2s;
+    color: gray;
+}
