@@ -1,0 +1,109 @@
+.skills-list__item{
+    margin: 15px 0;
+}
+.skills-list__wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 10px;
+}
+.scale{
+    position: relative;
+    margin: 10px 0;
+}
+.scale__max{
+    content: "";
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+}
+@keyframes htmlMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes cssMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+@keyframes sassMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 55%;
+    }
+}
+@keyframes jsMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes gitMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 45%;
+    }
+}
+@keyframes figmaMove{
+    0% {
+        width:0;
+    }
+    100% {
+        width: 40%;
+    }
+}
+.scale__range{
+    transition: width ease-in-out 1s;
+    position: absolute;
+    content: "";
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.html{
+    animation: htmlMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.css{
+    animation: cssMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.sass{
+    animation: sassMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.js{
+    animation: jsMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.git{
+    animation: gitMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.figma{
+    animation: figmaMove 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.skills-list__img{
+    width: 30px;
+    height: 30px;
+}
